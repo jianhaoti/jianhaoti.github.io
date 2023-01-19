@@ -1,19 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Change the fonts here! */
+body {
+  width: 75%;
+  margin: auto;
+  background-color: rgb(32, 42, 68);
+}
 
 h1 {
-	font-family: "Zen Dots";
+	font-family: "Roboto";
 	font-size: 36px;
+	color: white;
+
 }
 
 h2 {
-	font-family: "Zen Dots";
+	font-family: "Roboto";
+	color: #C0C0C0;
+	font-size:20px;
+
 }
 
 p, a, li {
 	font-family: "Roboto";
-	font-size: 24px;
+	font-size: 20px;
+	color: rgb(255,255,255);
 }
 
 /* Add a black background color to the top navigation */
@@ -40,6 +51,19 @@ p, a, li {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: blue;
+  background-color: gray;
   color: white;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgb(255,255,255);
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
