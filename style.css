@@ -90,13 +90,14 @@ td, th {
 	text-decoration: none;
 }
 
+
 .dropdown {
 	float: left;
 	overflow: hidden;
 }
 
 .dropdown .dropbtn {
-	font-size: 16px;  
+	font-size: inherit;  
 	border: none;
 	outline: none;
 	color: white;
@@ -130,17 +131,29 @@ td, th {
 
 .dropdown-content a:hover {
 	background-color: #ddd;
+	color: white	;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
 }
 
+button{
+	font-family: Baskervville !important;
+}
 
+button a.active {
+  background-color: #ddd;
+  color: black;
+}
 
+u1 {
+	font-family: Baskervville !important;
+}
 
-
-
+li {
+	font-family: Baskervville !important;
+}
 
 
 
