@@ -70,15 +70,17 @@ p, a, li {
 table {
   font-family: Baskervville;
   border-collapse: collapse;
-  width: 100%;
+  width: 75%;
   color: rgb(255,255,255);
   font-weight: normal;
+  font-size: 17px;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+font-size: 17px;
 }
 
 
